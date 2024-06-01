@@ -1,0 +1,16 @@
+# Offensive Security #
+## Go Buster ##
+You can use this to brute-force FakeBank's website to find hidden directories and paes. GoBuster will take a list of potential pages or directory names and tries accessing a website with each of  them. 
+If the page exists, it tells you.
+
+At a terminal line type:
+- gobuster -u https://fakebank.com -w wordlist.txt dir
+
+-u is used to state the website we are scanning
+-w takes a list of words to iterate through to find hidden pages
+
+Find the 200 code and then apend that file to the URL of the website you are viewing.    
+
+- Penetration Tester - Responsible for testing technology products for finding exploitable security vulnerabilities.
+- Red Teamer - Plays the role of an adversary, attacking an organization and providing feedback from an enemy's perspective.
+- Security Engineer - Design, monitor, and maintain security controls, networks, and systems to help prevent cyberattacks.
